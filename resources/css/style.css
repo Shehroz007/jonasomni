@@ -226,22 +226,22 @@ float:left;
 /* how it works      */
 /*---------------------*/
 
-.step-box{
-    margin-top:30px;
-}
+
 .step-box:first-child{
     text-align:right;
     padding-right:3%;
+    margin-top:35px;
 }
 .step-box:last-child{
     text-align:left;
     padding-left:3%;
+    margin-top:70px;
 }
 .work-steps{
     margin-bottom:30px;
  }
  .work-steps:last-of-type{
-    margin-bottom:0;
+    margin-bottom:80;
  }
  .work-steps div{
     color:#da2c06;
@@ -252,7 +252,22 @@ float:left;
     border-radius:50%;
     text-align: center;
     padding-top:10px;
+    float:left;
+    margin-right:25px;
  }
+
+ /*------------------*/
+/*   section-cities     */
+/*-------------------*/
+
+
+.section-cities{
+    padding:80px 0;
+}
+
+ 
+
+ 
 /*------------------*/
 /*   clearfix       */
 /*-------------------*/
