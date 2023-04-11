@@ -171,7 +171,7 @@ h3{
 }
 .icon-big{
     display:block;
-    margin-bottom:10px;
+    
     color:#da2c06;
     font-size:350%;
     font-weight: 400;
@@ -262,19 +262,26 @@ float:left;
 
 
 .section-cities{
-    padding:80px 0;
+    padding:40px 0;
 }
 .box img{
     width:100%;
     height:auto;
+    margin-bottom:0;
 }
 .margin-top{
     margin-top:40px;
 }
 .icon-small{
     color:#da2c06;
-    font-size:120%;
-    margin-right:4px;
+    font-size:130%;
+    text-align:center;
+    width:30px;
+    vertical-align: middle;
+    /*------secrets to align middle---*/
+    line-height:120%;
+    display:inline-block;
+    margin-top:-4px;
 }
  
 /*------------------*/
