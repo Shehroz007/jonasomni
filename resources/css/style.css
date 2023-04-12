@@ -283,7 +283,21 @@ float:left;
     display:inline-block;
     margin-top:-4px;
 }
- 
+.city-feature{
+    margin-bottom:6px;
+}
+.city-feature a:link,
+.city-feature a:visited
+{
+   text-decoration: none;
+   color:#eb2f06;
+   border-bottom:1px solid #da2c06;
+   padding-bottom:1px;
+}
+.city-feature a:hover{
+    
+}
+
 /*------------------*/
 /*   clearfix       */
 /*-------------------*/
